@@ -109,8 +109,12 @@ a {
 /* Header */
 
 /* Hero */
+.hero {
+    padding: 42px 0 79px;
+}
+
 .hero .body {
-  display: flex;
+    display: flex;
 }
 
 .hero .content-block {
