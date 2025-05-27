@@ -38,6 +38,7 @@ a {
   border-radius: 14px;
   background: #1ebfc1;
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -394,8 +395,7 @@ a {
 }
 
 .course .body {
-  padding: 60px 0;
-  min-width: 1024px;
+  padding: 60px 0 184px;
 }
 
 .course .heading-lv2 {
@@ -514,3 +514,226 @@ a {
 }
 
 /* Course */
+
+/* CountDown */
+.countdown {
+  margin-top: 81px;
+}
+
+.countdown .body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 862px;
+}
+
+.countdown .body .countdown-list {
+  display: flex;
+  justify-content: space-between;
+}
+.countdown .body .countdown-list .countdown-item .value {
+  color: #0d1111;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 100%;
+  text-align: center;
+  margin-bottom: 11px;
+}
+
+.countdown .body .countdown-list .countdown-item .desc {
+  color: #767e7e;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+}
+/* CountDown */
+
+/* Feedback */
+.feedback {
+  margin-top: 264px;
+}
+
+.feedback .body {
+  display: flex;
+  justify-content: space-between;
+  gap: 72px;
+  padding: 32px 0;
+}
+
+.feedback .body .feedback-block {
+  max-width: 419px;
+}
+
+.feedback blockquote {
+  width: 100%;
+  color: #5d6564;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+
+.feedback .desc {
+  display: flex;
+  align-items: center;
+  margin-top: 33px;
+  color: #767e7e;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+.feedback .desc strong {
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.feedback .desc::before {
+  margin-right: 6px;
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 2px;
+  background: #070707;
+}
+
+.feedback .feedback-cta {
+  display: flex;
+  margin-top: 52px;
+}
+
+.feedback .feedback-cta .cta-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #1ebfc1;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.feedback .body .avatar-block {
+  margin-left: auto;
+  position: relative;
+}
+
+.feedback .body .avatar-block .ava-fb {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+
+.feedback .body .avatar-block .ava-fb-1 {
+  left: -535px;
+  top: 0;
+  width: 92px;
+  height: 92px;
+}
+
+.feedback .body .avatar-block .ava-fb-2 {
+  right: 0;
+  width: 110px;
+  height: 110px;
+  top: 19px;
+}
+
+.feedback .body .avatar-block .ava-fb-3 {
+  width: 235px;
+  height: 235px;
+  left: -457px;
+  top: 110px;
+}
+
+.feedback .body .avatar-block .ava-fb-4 {
+  left: -679px;
+  bottom: 67px;
+}
+
+.feedback .body .avatar-block .ava-fb-5 {
+  bottom: -100px;
+  left: -485px;
+}
+
+.feedback .body .avatar-block .ava-fb-6 {
+  bottom: 0;
+  right: 0;
+}
+
+/* Feedback */
+
+/* Admit */
+.admit {
+  margin-top: 130px;
+  padding: 76px 135px 88px;
+  background: #def6f5;
+}
+
+.admit .body {
+  display: flex;
+  align-items: center;
+}
+
+.admit .admit-content .desc {
+  margin-top: 18px;
+  margin-right: 410px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: normal;
+}
+.admit .admit-btn button {
+  border: none;
+}
+/* Admit */
+
+/* Footer */
+.footer {
+  margin-top: 130px;
+}
+.footer .row-top {
+  padding: 131px 0 0;
+  display: flex;
+  justify-content: space-between;
+  /* gap: ; */
+}
+
+.footer .title {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer .list li {
+  margin-top: 18px;
+  color: #535353;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+.footer li a {
+  color: #535353;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+.footer .list li:first-child {
+  margin-top: 26px;
+}
+
+.footer .list-social a {
+  display: flex;
+  align-items: center;
+}
+
+.footer .copyright {
+  margin-top: 80px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #b0b5b4;
+  font-size: 1.8rem;
+  line-height: normal;
+}
+/* Footer */
