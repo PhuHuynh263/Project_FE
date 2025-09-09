@@ -1,0 +1,16 @@
+body {
+    display: block;
+    margin: 0;
+}
+
+
+.todo {
+    width: 100%;
+    height: 100vh;
+    background-color: #336600;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+

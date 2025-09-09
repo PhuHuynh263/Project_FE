@@ -53,6 +53,14 @@ a {
 .btn:hover {
   opacity: 0.9;
 }
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 1);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 /* common */
 
 /* Header */
@@ -332,6 +340,7 @@ a {
 }
 
 .popular .course-item {
+  flex: 1;
   border-radius: 12px;
   background: #fff;
   border: 1px solid #e2dfda;
@@ -354,6 +363,13 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.popular .course-item a .title {
+  color: #171100;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.67;
 }
 
 .popular .course-item .info .head .value {
