@@ -1,8 +1,14 @@
 {
+<<<<<<< HEAD
   "liveServer.settings.port": 0,
   "files.autoSave": "onFocusChange",
   "editor.fontSize": 20,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true
+=======
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "cSpell.words": ["Addfavicon"]
+>>>>>>> f02f58ca1e8f8c452e692fccb7c29f63913c89be
 }
